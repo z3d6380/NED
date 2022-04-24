@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+
+#box{
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.row{
+    margin: 2em;
+}
+input{
+    width: 100%;
+}
+
+#login{
+    font-size: 2rem;
+}
