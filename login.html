@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NED - Agency Admin Login</title>
-    
+    <title>NED - Agency Edit by Admin</title>
+    <link rel="stylesheet" href="login.css">
     <!-- Bootstrap CSS File -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-	  
-  </head>
-  <body>
-	
-	  <h1>NED</h1>
-	  <p>Agency Admin Login</p>
-	  
-	  <a href="edit.html">Edit</a>
-	  <a href="index.html">User View</a>
-	  
-	<!-- Bootstrap JS File-->
-	<script src="js/bootstrap.min.js"></script>
-  </body>
+
+</head>
+<body>
+<div class="container justify-content-center" style=" width: 100vw; height: 100vh">
+<div class="container border" id="box">
+    <div class="row" id="login">
+        <div class="col">
+            <h1>Login Page</h1>
+        </div>
+    </div>
+
+    <form>
+        <div class="row" id="uname">
+            <div class="col">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="email" placeholder="">
+            </div>
+        </div>
+        <div class="row" id="pword">
+            <div class="col">
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password" placeholder="">
+            </div>
+        </div>
+    </form>
+
+    <div class="row" id="lbutton">
+        <div class="col">
+            <a type="button" class="btn btn-success" href="edit.html">Login</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Bootstrap JS File-->
+<script src="js/bootstrap.min.js"></script>
+<script src="login.js"></script>
+</body>
 </html>
